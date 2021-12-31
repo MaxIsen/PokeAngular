@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+/* Base style */
+
+* {
+    padding : 0;
+    margin : 0;
+    zoom: 100%;
+
+}
+
+body { 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: red;
+    zoom: 100%;
+}

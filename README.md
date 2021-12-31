@@ -1,27 +1,14 @@
-# Pokedex
+## Mise en place du projet : 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+1) Aller dans le repertoire courant du dossier (là où se situe le README)
+2) Ouvrir un Terminal et exécuter la ligne de commande : "npm install" qui va installer les node_modules
+3) Après que l'installation soit terminée, exécuter la commande : "ng serve" qui va ouvrir le projet en localhost
+4) Comme écrit dans le terminal, pour accéder au projet, il faut ouvrir son navigateur web et aller à l'adresse donnée, ici : "http://localhost:4200"
+5) Apprécier le site
 
-## Development server
+## Utilité du projet Angular :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Notre projet permet d'accéder à un Pokédex, qui affiche le nom des pokémons, leur type principal, leur ID dans le pokédex ainsi qu'une photo.
+Ces photos sont, en normal et en chromatique afin de montrer leurs différentes formes.
+Une pagination est présente afin de naviguer entre toutes les espèces de pokémon existantes sous toutes leurs formes.
+Un tableau des faiblesses est également disponible en dessous de la pagination.

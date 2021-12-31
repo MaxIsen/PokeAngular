@@ -1,0 +1,31 @@
+<!-- Pokemon grid -->
+
+<div class ="pokemon-grid">
+
+    <div 
+    class ="box" 
+    *ngFor="let pokemon of pokemons | paginate: { itemsPerPage: 8, currentPage: page, totalItems: totalPokemons }"
+    >
+
+       <div id="poke"> <div id="def"><img [src]="pokemon.sprites.front_default" alt="Pokemon" style="float:left"></div>
+            <div id="shiny"><img [src]="pokemon.sprites.front_shiny" alt="Pokemon" style="float:left"></div> </div>
+
+        <h3>{{ pokemon.name }} </h3>
+        <p> 
+            <b> Type: </b> {{ pokemon.types[0].type.name }}
+        </p>
+        
+        <p> 
+            <b> Pokemon ID: </b> {{ pokemon.id }}
+        </p>
+
+        
+    </div>
+</div>
+
+<pagination-controls (pageChange)="page = $event; pokemons =[]; getPokemons();">
+</pagination-controls>
+
+<div id="weak">
+    <b>Weaknesses : </b> <button [routerLink]="['/weakness']" >click here</button>
+</div>

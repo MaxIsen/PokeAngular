@@ -1,0 +1,54 @@
+/* Pokemon grid */
+.pokemon-grid {
+    display: grid;
+    grid-gap: 25px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+}
+
+.pokemon-grid .box {
+    width: 100%;
+    height: 300px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    display: grid;
+    text-align: center;
+    font-size: large;
+    background-image: url(https://www.wallpapertip.com/wmimgs/81-813546_rotom-pokedex-background.jpg);
+    
+    
+}
+#poke{
+    width:100%;
+  }
+  #def, #shiny{
+      display: inline-block;
+      vertical-align: top;
+  }
+.pokemon-grid .box img {
+    max-width: 175px;
+    min-width: 175px;
+    display: inline-block;
+    position: static;
+    
+}
+#weak{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    
+}
+pagination-controls {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: white;
+}
+button{
+    color: black;
+    background-color: red;
+    border-color: red;
+    font-size: 20px;
+}

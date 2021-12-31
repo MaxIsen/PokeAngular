@@ -1,0 +1,28 @@
+
+.Image     {
+    margin: auto;
+    max-width: 650px;
+    position: static;
+    display: block;
+    vertical-align: middle;
+}
+.image2{
+    max-width: 75px;
+    background-color: red; 
+}
+button{
+    border-color: blue;
+    border-width: 10px 10px 0px 10px;
+}
+@media only screen and (max-width: 500px) {
+    .Image {
+        max-width: 20px;
+   }
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    color:red;
+}
