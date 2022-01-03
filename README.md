@@ -1,7 +1,7 @@
 ## Mise en place du projet : 
 
-1) Aller dans le repertoire courant du dossier (là où se situe le README)
-2) Ouvrir un Terminal et exécuter la ligne de commande : "npm install" qui va installer les node_modules
+1) Télécharger, dezipper le dossier puis l'ouvrir (le README devrait y être visible)
+2) Ouvrir un Terminal dans ce dossier et exécuter la ligne de commande : "npm install" qui va installer les node_modules
 3) Après que l'installation soit terminée, exécuter la commande : "ng serve" qui va ouvrir le projet en localhost
 4) Comme écrit dans le terminal, pour accéder au projet, il faut ouvrir son navigateur web et aller à l'adresse donnée, ici : "http://localhost:4200"
 5) Apprécier le site
